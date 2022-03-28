@@ -23,43 +23,7 @@ const CoverPage = () => {
               <Stack className="2xl:h-[550px] 3xl:h-[660px] font-sfprodisplay h-[1080px] lg:h-[428px] self-stretch w-[100%] xl:h-[489px]">
                 <Column className="absolute bottom-[0] justify-start left-[0] w-[86%]">
                   <Column className="items-end self-stretch w-[100%]">
-                    <Stack className="2xl:h-[220px] 2xl:ml-[5px] 3xl:h-[264px] 3xl:ml-[6px] h-[431px] lg:h-[171px] lg:ml-[3px] ml-[10px] w-[90%] xl:h-[196px] xl:ml-[4px]">
-                      <div className="2xl:h-[220px] 3xl:h-[264px] absolute bg-gradient  h-[431px] left-[0] lg:h-[171px] opacity-op3 rounded-radius2155 w-[41%] xl:h-[196px]"></div>
-                      <Row className="2xl:bottom-[45px] 2xl:gap-[21px] 2xl:px-[27px] 3xl:bottom-[54px] 3xl:gap-[25px] 3xl:px-[32px] absolute bg-gray_800_6c bottom-[89px] gap-[42px] grid grid-cols-4 items-center justify-start lg:bottom-[35px] lg:gap-[16px] lg:px-[21px] px-[54px] right-[0] rounded-radius20 w-[93%] xl:bottom-[40px] xl:gap-[19px] xl:px-[24px]">
-                        <Column className="2xl:mb-[6px] 2xl:mt-[7px] 3xl:mb-[7px] 3xl:mt-[8px] bg-gray_800_75 font-sfprodisplay items-center justify-center lg:my-[5px] mb-[13px] mt-[14px] rounded-radius20 w-[100%] xl:mb-[5px] xl:mt-[6px]">
-                          <Image
-                            src="img_akariconsvra.svg"
-                            className="2xl:h-[21px] 2xl:mt-[22px] 2xl:w-[20px] 3xl:h-[25px] 3xl:mt-[27px] 3xl:w-[24px] h-[40px] lg:h-[16px] lg:mt-[17px] lg:w-[15px] mt-[45px] mx-[auto] object-contain w-[40px] xl:h-[19px] xl:mt-[20px] xl:w-[18px]"
-                            alt="akariconsvra"
-                          />
-                          <Text className="2xl:mb-[14px] 2xl:mt-[12px] 2xl:text-fs9 3xl:mb-[17px] 3xl:mt-[14px] 3xl:text-fs10 font-medium leading-lh lg:mb-[11px] lg:mt-[9px] lg:text-fs7 mb-[28px] mt-[24px] mx-[auto] text-center text-fs18 text-white_A700 w-[81%] xl:mb-[12px] xl:mt-[10px] xl:text-fs8">{`Experience the world through VR glasses`}</Text>
-                        </Column>
-                        <Column className="2xl:mb-[6px] 2xl:mt-[7px] 3xl:mb-[7px] 3xl:mt-[8px] bg-gray_800_75 font-sfprodisplay items-center justify-center lg:my-[5px] mb-[13px] mt-[14px] rounded-radius20 w-[100%] xl:mb-[5px] xl:mt-[6px]">
-                          <Image
-                            src="img_frame.svg"
-                            className="2xl:h-[21px] 2xl:mt-[22px] 2xl:w-[20px] 3xl:h-[25px] 3xl:mt-[27px] 3xl:w-[24px] h-[40px] lg:h-[16px] lg:mt-[17px] lg:w-[15px] mt-[45px] mx-[auto] object-contain w-[40px] xl:h-[19px] xl:mt-[20px] xl:w-[18px]"
-                            alt="Frame"
-                          />
-                          <Text className="2xl:mb-[14px] 2xl:mt-[12px] 2xl:text-fs9 3xl:mb-[17px] 3xl:mt-[14px] 3xl:text-fs10 font-medium leading-lh lg:mb-[11px] lg:mt-[9px] lg:text-fs7 mb-[28px] mt-[24px] mx-[auto] text-center text-fs18 text-white_A700 w-[81%] xl:mb-[12px] xl:mt-[10px] xl:text-fs8">{`View all your surrounding with 360`}</Text>
-                        </Column>
-                        <Column className="2xl:mb-[6px] 2xl:mt-[7px] 3xl:mb-[7px] 3xl:mt-[8px] bg-gray_800_75 font-sfprodisplay items-center justify-start lg:my-[5px] mb-[13px] mt-[14px] rounded-radius20 w-[100%] xl:mb-[5px] xl:mt-[6px]">
-                          <Image
-                            src="img_makigaming.svg"
-                            className="2xl:h-[25px] 2xl:mt-[20px] 2xl:w-[24px] 3xl:h-[30px] 3xl:mt-[25px] 3xl:w-[29px] h-[48px] lg:h-[19px] lg:mt-[16px] lg:w-[18px] mt-[41px] mx-[auto] object-contain w-[48px] xl:h-[22px] xl:mt-[18px] xl:w-[21px]"
-                            alt="makigaming"
-                          />
-                          <Text className="2xl:mb-[14px] 2xl:mt-[20px] 2xl:text-fs9 3xl:mb-[17px] 3xl:mt-[25px] 3xl:text-fs10 font-medium leading-lh lg:mb-[11px] lg:mt-[16px] lg:text-fs7 mb-[28px] mt-[41px] mx-[auto] text-center text-fs18 text-white_A700 w-[81%] xl:mb-[12px] xl:mt-[18px] xl:text-fs8">{`Incredible gaming experience`}</Text>
-                        </Column>
-                        <Column className="2xl:mb-[6px] 2xl:mt-[7px] 3xl:mb-[7px] 3xl:mt-[8px] bg-gray_800_75 font-sfprodisplay items-center justify-end lg:my-[5px] mb-[13px] mt-[14px] rounded-radius20 w-[100%] xl:mb-[5px] xl:mt-[6px]">
-                          <Image
-                            src="img_tablerbusiness.svg"
-                            className="2xl:h-[21px] 2xl:mt-[23px] 3xl:h-[26px] 3xl:mt-[28px] h-[41px] lg:h-[17px] lg:mt-[18px] mt-[47px] mx-[auto] object-contain w-[20%] xl:h-[19px] xl:mt-[21px]"
-                            alt="tablerbusiness"
-                          />
-                          <Text className="2xl:mb-[14px] 2xl:mt-[21px] 2xl:text-fs9 3xl:mb-[17px] 3xl:mt-[25px] 3xl:text-fs10 font-medium leading-lh lg:mb-[11px] lg:mt-[16px] lg:text-fs7 mb-[28px] mt-[42px] mx-[auto] text-center text-fs18 text-white_A700 w-[81%] xl:mb-[12px] xl:mt-[19px] xl:text-fs8">{`Making meetings and tours easier`}</Text>
-                        </Column>
-                      </Row>
-                    </Stack>
+                    <Text className="2xl:ml-[5px] 3xl:ml-[6px] lg:ml-[3px] ml-[10px] xl:ml-[4px]"></Text>
                     <Line className="2xl:mt-[456px] 2xl:mx-[37px] 3xl:mt-[548px] 3xl:mx-[44px] bg-gray_800_6c h-[1px] lg:mt-[354px] lg:mx-[28px] mt-[897px] mx-[73px] opacity-op3 rounded-radius40 w-[72%] xl:mt-[406px] xl:mx-[33px]" />
                   </Column>
                   <div className="2xl:mr-[5px] 2xl:mt-[463px] 3xl:mr-[6px] 3xl:mt-[556px] bg-gradient  h-[1px] lg:mr-[3px] lg:mt-[360px] mr-[10px] mt-[911px] opacity-op2 rounded-radius4555 w-[41%] xl:mr-[4px] xl:mt-[412px]"></div>
